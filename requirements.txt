@@ -1,0 +1,7 @@
+# 需要 Python >= 3.10；安装：python -m pip install -r requirements.txt
+# 实际验证：Python 3.11.16、NumPy 2.4.6、Matplotlib 3.11.1。
+# 下列为最低版本约束，未锁定完整依赖环境。
+# NumPy：手写 TV–PDHG 算法、添加高斯噪声、计算 PSNR/SSIM、保存浮点数组。
+numpy>=1.24
+# Matplotlib：读取测试图片，生成无需弹窗的实验对比图。
+matplotlib>=3.7

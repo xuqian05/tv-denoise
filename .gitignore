@@ -1,0 +1,14 @@
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 本机配置与临时文件
+.codex/
+.setup/
+.env
+.env.*
+!.env.example
